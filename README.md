@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://swift1719.github.io/devCh-404-pg/">
       Demo
     </a>
     <span> | </span>
