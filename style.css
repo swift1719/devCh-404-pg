@@ -58,6 +58,7 @@ footer{
     padding-top: 100px;
     width: 30%;
     margin: auto;
+    color:#BDBDBD;
 }
 
 @media (max-width:880px) {
