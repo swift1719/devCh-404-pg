@@ -40,7 +40,7 @@
   <img src="https://raw.githubusercontent.com/swift1719/devCh-404-pg/main/assets/desktop.jpg" />
   
 - Mobile
-  <img src="https://raw.githubusercontent.com/swift1719/devCh-404-pg/main/assets/desktop.jpg" width="400" height="500"/>
+  <img src="https://raw.githubusercontent.com/swift1719/devCh-404-pg/main/assets/desktop.jpg"/>
 
 
 ### Built With
