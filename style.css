@@ -1,0 +1,113 @@
+.container{
+    width: 100%;
+    margin: auto;
+    font-family: 'Space Mono', monospace;
+}
+header{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin:40px auto 10px 150px;
+    color: #333333;
+}
+
+main{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top:40px;
+}
+img{
+    margin:auto;
+    width: 500px;
+}
+.card{
+    font-family: Space Mono;
+    font-style: normal;
+    margin-left:40px;
+}
+.card h2{
+    margin: 0 auto 10px 0px;
+    width: 500px;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 0.035em;
+    line-height: 70px;
+    color: #333333;
+}
+.card p{
+    width: 380px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.035em;
+    color: #4F4F4F;
+}
+.card button{
+    font-size: 16px;
+    width: 216px;
+    height: 68px;
+    color: #fff ;
+    border-radius: 10px;
+    background-color: #333333;
+}
+footer{
+    font-family: Montserrat;
+    padding-top: 100px;
+    width: 30%;
+    margin: auto;
+}
+
+@media (max-width:880px) {
+    .container{
+        width: 100%;
+    }
+    header{
+        margin:auto;
+        margin-top: 30px;
+        width: 70%;
+        letter-spacing: 0.08em;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        margin: auto;
+        width: 60%;
+    }
+    .card{
+        width: 80%;
+        margin: auto;
+    }
+    .card h2{
+        margin:auto;
+        margin-top: 20px;
+        font-size: 40px;
+        line-height: 40px;
+        width: 80%;
+    }
+    .card p{
+        line-height: 27px;
+        font-size: 20px;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    .card button{
+        width: 50%;
+        height: 43px;
+        margin: 20px auto 20px 10%;
+    }
+    footer{
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        width:80%;
+        padding-top: 0px;
+    }
+
+}
